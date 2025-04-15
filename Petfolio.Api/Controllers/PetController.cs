@@ -38,7 +38,6 @@ namespace Petfolio.Api.Controllers
 
 
         [HttpGet]
-
         [ProducesResponseType(StatusCodes.Status204NoContent)]
         [ProducesResponseType(typeof(ResponseAllPetJson), StatusCodes.Status200OK)]
         [ProducesResponseType(typeof(ResponseErrosJson), StatusCodes.Status400BadRequest)]
@@ -71,7 +70,7 @@ namespace Petfolio.Api.Controllers
 
         }
 
-        [HttpGet("{id}")]
+        [HttpDelete("{id}")]
         [ProducesResponseType(StatusCodes.Status204NoContent)]
         [ProducesResponseType(typeof(ResponseErrosJson), StatusCodes.Status404NotFound)]
         public IActionResult Delete([FromRoute] Guid id)

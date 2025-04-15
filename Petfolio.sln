@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
-VisualStudioVersion = 17.12.35527.113 d17.12
+VisualStudioVersion = 17.12.35527.113
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "API", "API", "{D94D2A6C-1862-451B-A9BA-943F5481A87D}"
 EndProject
@@ -14,6 +14,10 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Petfolio.Application", "Petfolio.Application\Petfolio.Application.csproj", "{D6AEA0EE-EAC1-43F2-9E59-374E35F529BA}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Petfolio.Communication", "Petfolio.Communication\Petfolio.Communication.csproj", "{D0E143B8-B9A3-4624-A7C7-58A64AE4187B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Exception", "Exception", "{FA209985-5349-4021-BD77-9BCC6A116324}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Petfolio.Exception", "Petfolio.Exception\Petfolio.Exception.csproj", "{83A91E98-0395-4160-B03E-47266244E14D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +37,10 @@ Global
 		{D0E143B8-B9A3-4624-A7C7-58A64AE4187B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D0E143B8-B9A3-4624-A7C7-58A64AE4187B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D0E143B8-B9A3-4624-A7C7-58A64AE4187B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{83A91E98-0395-4160-B03E-47266244E14D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{83A91E98-0395-4160-B03E-47266244E14D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{83A91E98-0395-4160-B03E-47266244E14D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{83A91E98-0395-4160-B03E-47266244E14D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -41,5 +49,6 @@ Global
 		{FEE81038-DBEA-403B-88B4-408863AEC5CB} = {D94D2A6C-1862-451B-A9BA-943F5481A87D}
 		{D6AEA0EE-EAC1-43F2-9E59-374E35F529BA} = {4738092E-DF42-436B-B819-423668515F90}
 		{D0E143B8-B9A3-4624-A7C7-58A64AE4187B} = {8D75EADD-C1E0-4657-854D-A5F3DB92265F}
+		{83A91E98-0395-4160-B03E-47266244E14D} = {FA209985-5349-4021-BD77-9BCC6A116324}
 	EndGlobalSection
 EndGlobal

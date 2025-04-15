@@ -7,7 +7,12 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <PackageReference Include="FluentValidation" Version="11.11.0" />
+  </ItemGroup>
+
+  <ItemGroup>
     <ProjectReference Include="..\Petfolio.Communication\Petfolio.Communication.csproj" />
+    <ProjectReference Include="..\Petfolio.Exception\Petfolio.Exception.csproj" />
   </ItemGroup>
 
 </Project>
